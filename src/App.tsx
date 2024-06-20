@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import image from './assets/in.png'
 import './App.css'
 
 export default function App() {
@@ -55,7 +56,7 @@ export default function App() {
  return(
   <div className='main'>
     <nav>
-      <img src="src/assets/in.png" alt="inoticiama"/>
+      <img src={image} alt="inoticiama"/>
     </nav>    
     <section className="main-seo">
         <section className="title-seo">
